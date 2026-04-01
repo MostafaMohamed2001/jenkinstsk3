@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/MostafaMohamed2001/jenkinstsk3.git'
+               git branch: 'main', url: 'https://github.com/MostafaMohamed2001/jenkinstsk3.git'
             }
         }
 
